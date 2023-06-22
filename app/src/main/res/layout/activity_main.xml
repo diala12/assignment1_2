@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout tools:context=".MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:background="#75CFBA" android:id="@+id/linearLayout">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView" android:textSize="34sp" android:textColor="#17473D" android:text="Biology" android:layout_marginTop="200px" android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView3" android:textSize="20sp" android:textColor="#2C5950" android:text="Learn more about the types of bacteria by choosing one of the pictures below" android:layout_marginTop="50dp" android:layout_marginRight="20dp" android:layout_marginLeft="20dp"/>
+
+
+    <LinearLayout android:layout_height="129dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="50dp">
+
+    <ImageButton android:layout_height="match_parent" android:layout_width="127dp" android:id="@+id/ball" android:layout_marginLeft="50dp" tools:ignore="SpeakableTextPresentCheck" app:srcCompat="@drawable/ball" android:layout_weight="1"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="115dp" android:id="@+id/dama" android:layout_marginRight="50dp" android:layout_marginLeft="50dp" tools:ignore="SpeakableTextPresentCheck" app:srcCompat="@drawable/dama" android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="129dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="20dp">
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/moltawyeh" android:layout_marginLeft="50dp" tools:ignore="SpeakableTextPresentCheck" app:srcCompat="@drawable/moltawyeh" android:layout_weight="1"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/nail" android:layout_marginRight="50dp" android:layout_marginLeft="50dp" tools:ignore="SpeakableTextPresentCheck" app:srcCompat="@drawable/nail" android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="133dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginTop="20dp">
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/orga" android:layout_marginRight="100dp" android:layout_marginLeft="100dp" tools:ignore="SpeakableTextPresentCheck" app:srcCompat="@drawable/orga" android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
